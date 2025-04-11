@@ -9,15 +9,7 @@ Este proyecto implementa un **sistema educativo distribuido** basado en arquitec
 - `matriculas-servicio`: Registro de inscripciones y control de matrículas.
 - `notas-servicio`: Gestión de calificaciones y reportes.
 
-## 🚀 Tecnologías utilizadas
 
-- Java 17 / Spring Boot
-- Spring Cloud (Eureka, Feign, Gateway)
-- MySQL
-- Docker
-- GitHub Actions para CI/CD
-
-## 📦 Enfoque distribuido
 
 El sistema está dividido en varios microservicios que se comunican a través de **REST** y **mensajería asíncrona (si aplica)**. Cada servicio tiene su propia base de datos y puede ser escalado independientemente.
 
